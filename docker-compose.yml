@@ -1,0 +1,13 @@
+version: "3"
+services:
+  gatsby:
+    image: gatsbyjs_gatsbyjs
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - 8000:8000
+      - 9000:9000
+    command: /bin/bash -c "cd mysite && gatsby develop -H 0.0.0.0"
+    tty: true
+    stdin_open: true
