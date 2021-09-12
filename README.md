@@ -1,13 +1,14 @@
-# Gatsbyjsで新規ブログを作成する
+# Gatsbyjs で新規ブログを作成する
 
-hello worldテンプレートを利用した初期化
+hello world テンプレートを利用した初期化
 
 ```
-npx gatsby my-site https://github.com/gatsbyjs/gatsby-starter-hello-world
+npx gatsby new my-site https://github.com/gatsbyjs/gatsby-starter-hello-world
 
 ```
 
 ## 使うプラグイン
+
 備忘録
 
 mdx
@@ -24,14 +25,14 @@ yarn add gatsby-plugin-react-helmet react-helmet
 
 ```
 
-gatsby-plugin-image
+![gatsby-plugin-image](https://www.gatsbyjs.com/plugins/gatsby-plugin-image/)
 
 ```
 yarn add gatsby-plugin-image gatsby-plugin-sharp gatsby-source-filesystem gatsby-transformer-sharp
 
 ```
 
-mdx本文での画像埋め込み用
+mdx 本文での画像埋め込み用
 
 ```
 yarn add gatsby-remark-images
