@@ -25,7 +25,7 @@ yarn add gatsby-plugin-react-helmet react-helmet
 
 ```
 
-[gatsby-plugin-image](https://www.gatsbyjs.com/plugins/gatsby-plugin-image/)
+[gatsby-plugin-image](https://www.gatsbyjs.com/plugins/gatsby-plugin-image/){:target="_blank"}
 
 ```
 yarn add gatsby-plugin-image gatsby-plugin-sharp gatsby-source-filesystem gatsby-transformer-sharp
